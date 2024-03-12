@@ -1,0 +1,68 @@
+@font-face {
+    font-family: madimi ;
+    src: url(./assets/fonts/MadimiOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: comforta ;
+    src: url(./assets/fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+#block_content_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+}
+
+#anchor_title {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-family: madimi ;
+}
+
+h1:hover {
+    cursor: pointer;
+    color:  rgb(122, 78, 22);
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+#nav_header {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav_list {
+    margin: 0px 15px;
+    font-family: comforta;
+}
+
+.nav_list:hover {
+    cursor: pointer;
+    font-size: 20px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    font-weight: bold;
+    color: rgb(122, 78, 22);
+
+}
