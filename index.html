@@ -4,16 +4,18 @@
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Virtuel</title>
+    <title>Business Coffee</title>
 </head>
 <body>
     <header>
         <div id="block_content_header">
-            <a id="anchor_title" href="./index.html" target="_self"><h1>Business Coffee</h1></a>
+            <a class="anchor_title" href="./index.html" target="_self"><h1>Business Coffee</h1></a>
             <ul id="nav_header">
-                <li class="nav_list">Contact</li>
-                <li class="nav_list">Menu</li>
-                <li class="nav_list">Commander</li>
+                <a class="anchor_title" href="" target="_self" ><li class="nav_list">Contact/Localisation</li></a>
+                <a class="anchor_title" href="#cartes" target="_self" ><li class="nav_list">Cartes</li></a>
+                <a class="anchor_title" href="#commande" target="_self" ><li class="nav_list">Commander</li></a>
+                <a class="anchor_title" href="" target="_self" ><li class="nav_list">Évènements</li></a>
+                <a class="anchor_title" href="" target="" ><li class="nav_list">Panier 🛒</li></a>
             </ul>
         </div>
     </header>
@@ -50,31 +52,200 @@
         </section>
         <div id="spotify">
             <div>
-                <a href="https://open.spotify.com/intl-fr" target="_blank" ><img id="music" src="./assets/images/Spotify_logo_with_text.svg.png" alt="logo music"></a>
+                <a href="https://open.spotify.com/intl-fr" target="_blank" ><img id="music_" src="./assets/images/Quiet-Cafe-Chill-Spotify-Playlist-1024x1024.webp" alt="logo music"></a>
             </div>
             <div>
-                <a href="https://www.deezer.com/fr/offers?utm_source=adwords&utm_medium=search&utm_campaign=acq_fr_sea-brd_web_search_perf_tnb-directsub_pure&utm_content=alloffers_1st-party-web-pixels_brd-exact&utm_term=%5Bdeezer%5D&utm_source=adwords&utm_medium=search&utm_campaign=acq_fr_sea-brd_web_search_perf_tnb-directsub_pure&utm_content=brd_premium_tnb_pure-exact&utm_term=deezer&gad_source=1&gclid=Cj0KCQjw-r-vBhC-ARIsAGgUO2AJY2BWXvZBdqRdtNgYT6V4D-_IRkeLilIC1DlZTDgYT0SSZm_F9_oaAo8uEALw_wcB" target="_blank" ><img id="music_" src="./assets/images/deezer.jpeg" alt="logo music"></a>
+                <a href="https://open.spotify.com/intl-fr" target="_blank" ><img id="music" src="./assets/images/Spotify_logo_with_text.svg.png" alt="logo music"></a>
             </div>
         </div>
-        <section id="menus">
-            <div class="formules">
-                <h3>CAFÉS</h3>
-                <ul>
-                    <li>Expresso</li>
-                    <li>Macchiato</li>
-                    <li>Café Vanille</li>
-                    <li>Café noir</li>
-                </ul>
+        <div id="events_">
+            <div>
+                <h2>ÉVENTS : INAUGURATION DU BUSINESS CAFÉ </h2>
+                <p class="party">Une soirée est organisé pour inaugurer le Business Café</p>
+                <p class="party">Ouverture 18h00-3h00</p>
+                <p class="party">Happy Hour pour cette évents</p>
             </div>
-            <div class="formules">
-                <h3>PÂTISSERIES/SANDWICHERIES</h3>
-                <ul>
-                    <li>Fruits rouges</li>
-                    <li>Chocolat</li>
-                    <li>Fraise</li>
-                    <li>Vanille bourbon</li>
-                </ul>
+            <div>
+                <img id="soiree" src="./assets/images/soiréechic.jpeg" alt="">
             </div>
+            <div>
+                <img id="tapis_rouge"  class="" src="./assets/images/tapis-rouge-soirée.jpg" alt="">
+            </div>
+        </div>
+        <section id="cartes"  class="menus">
+            <div class="formules">
+                <div class="cartes_">
+                    <h3 class="designation">CAFÉS ☕️🍵🧋</h3>
+                    <ul class="differents_menus">
+                        <li class="formules_content">Expresso</li>
+                        <span class="price">2.00/3.50/5.00 €</span> 
+                        <p> S / M / L</p>
+                        <br>
+                        <li class="formules_content">Macchiato</li>
+                        <span class="price">3.50/4.50/5.50 €</span>
+                        <p> S / M / L</p>
+                        <br>
+                        <li class="formules_content">Café Vanille</li>
+                        <span class="price">3.00/4.00/5.30 €</span> 
+                        <p> S / M / L</p>
+                        <br>
+                        <li class="formules_content">Café noir</li>
+                        <span class="price">1.80/2.90/3.60 €</span>
+                        <p> S / M / L</p>
+                        <br>
+                        <li class="formules_content">Smoothie (Plusieurs fruits*)</li>
+                        <span class="price">2.50/3.50/4.60 €</span> 
+                        <p> S / M / L</p>
+                        <br>
+                        <li class="formules_content">Thé Glacé</li>
+                        <span class="price">3.20/4.00/5.00 €</span>   
+                        <p> S / M / L</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="formules">        
+                <div class="cartes_">
+                    <h3 class="designation">PÂTISSERIES 🍰🧁🍪</h3>
+                    <ul class="differents_menus">
+                        <li class="formules_content">Cheese-Cake Fruits rouges</li>
+                        <span class="price">3.50 €</span> 
+                        <p> 1 acheté = 1 offert </p>
+                        <br>
+                        <li class="formules_content">Suisse au Chocolat</li>
+                        <span class="price">4.50 €</span> 
+                        <p> 1 acheté = 1 offert </p>
+                        <br>
+                        <li class="formules_content"> Fraisier</li>
+                        <span class="price">2.50 €</span>  
+                        <p> 1 acheté = 1 offert </p>
+                        <br>
+                        <li class="formules_content">Cookie Vanille bourbon</li>
+                        <span class="price">3.50 €</span>   
+                        <p> 1 acheté = 1 offert </p>
+                        <br>
+                        <li class="formules_content">Macaron</li>
+                        <span class="price">2.50 €</span>  
+                        <p> 1 acheté = 1 offert </p>
+                        <br>
+                        <li class="formules_content">Tarte aux pommes</li>
+                        <span class="price">3.50 €</span>   
+                        <p> 1 acheté = 1 offert </p>
+                    </ul>
+                </div>
+            </div>
+            <div class="formules">   
+                <div class="cartes_">
+                    <h3 class="designation">SANDWICHERIES 🥪🥙🥖</h3>
+                    <ul class="differents_menus">
+                        <li class="formules_content">Poulet, crudités</li>
+                        <span class="price">4.00/6.00 €</span> 
+                        <p>Seul/Menu </p>                     
+                        <br>
+                        <li class="formules_content">Chèvre, noix</li>
+                        <span class="price">3.00/5.00 €</span>
+                        <p>Seul/Menu </p>
+                        <br>
+                        <li class="formules_content">Jambon cru, bleu, noix</li>
+                        <span class="price">3.00/5.50 €</span> 
+                        <p>Seul/Menu </p>
+                        <br>
+                        <li class="formules_content">Saumon, avocat</li>
+                        <span class="price">4.00/6.00 €</span>  
+                        <p>Seul/Menu </p>
+                        <br>
+                        <li class="formules_content">Saint-nectaire</li>
+                        <span class="price">4.50/6.00 €</span>  
+                        <p>Seul/Menu </p>
+                        <br>
+                        <li class="formules_content">Thon, pêche</li>
+                        <span class="price">4.00/6.00 €</span>
+                        <p>Seul/Menu </p>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="menus">
+            <div class="formules">
+                <div class="cartes_"> 
+                    
+                </div>
+            </div>
+            <div class="formules">        
+                <div class="cartes_">
+                </div>
+            </div>
+            <div class="formules">   
+                <div class="cartes_">
+                </div>
+            </div>
+        </section>
+        <section class="menus">
+            <div class="formules">
+                <div class="cartes_"> 
+                    <img class="survol_image" src="./assets/images/berry-smoothie-served-black-table-cafea_76440-1397.avif" alt="imafe_smoothie">
+                </div>
+            </div>
+            <div class="formules">        
+                <div class="cartes_">
+                    <img class="survol_image" src="./assets/images/piece-cheesecake-black-plate-table-with-mint-cup-coffee-side-view_75930-695.avif" alt="image_cheesecake">
+                </div>
+            </div>
+            <div class="formules">   
+                <div class="cartes_">
+                    <img id="sandwich_" src="./assets/images/187444143-assiette-de-délicieux-sandwich-croissant-avec-du-poisson-sur-fond-noir.jpg" alt="image_sandwich">
+                </div>
+            </div>
+        </section>
+        <section class="menus">
+            <div class="formules">
+                <div class="cartes_"> 
+                    
+                </div>
+            </div>
+            <div class="formules">        
+                <div class="cartes_">
+                </div>
+            </div>
+            <div class="formules">   
+                <div class="cartes_">
+                </div>
+            </div>
+        </section>
+        <section id="formulaire_commande">
+            <form action="">
+                <h3 id="commande">Commander</h3>
+                <p id="livraison">À Emporter ? Merci de remplir les champs ci-dessous. 😁</p> 
+                <label for="">Nom complet  </label>
+                    <input placeholder="Prénom" required type="text">
+                    <br>
+                    <input placeholder="Nom" required type="text">
+                <br>
+                <label for="">Email </label>
+                    <input placeholder="📧" type="email" name="" required id="">
+               
+                <br>
+                <label for="">Numéro de téléphone </label>
+                    <input placeholder="📞" type="tel" name="" required id="">
+                <br>
+                <label for="">Adresse 
+                    <input placeholder="📍" type="text" required>
+                </label>
+                <br>
+                <label for="">Moyen de paiement
+                    <select name="Moyen de paiement" id="Paiment">
+                        <option value=""></option>
+                        <option value="">VISA</option>
+                        <option value="">MASTERCARD</option>
+                        <option value="">APPLE PAY</option>
+                        <option value="">PAYPAL</option>
+                    </select>
+                </label>
+                <input id="button" type="submit" value="Soumettre">
+                <p>En livraison ? Merci de vous rendre sur le site partenaire et passez votre commande. 😇🚚</p>
+                <div>
+                    <a href="https://www.ubereats.com/fr" target="_blank"  ><img id="ubereats" src="./assets/images/unnamed.png" alt="logo_ubereats"></a>
+                </div>
+            </form>
         </section>
     </main>
 </body>
